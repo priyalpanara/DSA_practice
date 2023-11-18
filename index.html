@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: black; color:white">
+    <div>
+        <ul class="week">
+            <li class="day">Mon</li>
+            <li class="day">Tue</li>
+            <li class="day">Wed</li>
+        </ul>
+    </div>
+</body>
+<script>
+    const firstDay=document.querySelector('.day')
+    console.log(firstDay.parentElement);
+    const weekDays=firstDay.parentElement;
+    weekDays.style.color='green';
+    weekDays.style.padding='120px';
+
+    
+</script>
+</html>
